@@ -45,7 +45,7 @@
                         <a class="nav-link" href="/about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/contact.html">Contact                            
+                        <a class="nav-link active" href="/contact.html">Contact
                             <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
@@ -56,7 +56,89 @@
         </div>
     </nav>
 
-    
+    <!-- New container with row and columns -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Contact Form -->
+                <h2>Send a message !</h2>
+                <form action="mailto:sagar21naidu@gmail.com" method="post" enctype="text/plain">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject"
+                            placeholder="Enter the subject" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5"
+                            placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+            <div class="col-lg-4 mt-4">
+                <!-- Card with Name, Email, and Website -->
+                <div class="card border-secondary">
+                    <div class="card-header">
+                        <h4 class="card-title">Contact Info</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text">
+                            <i class="bi bi-envelope"></i>
+                            <a href="mailto:sagar21naidu@gmail.com"
+                                class="text-light text-decoration-none">sagar21naidu@gmail.com</a>
+                        </p>
+                        <p class="card-text">
+                            <i class="bi bi-globe"></i>
+                            <a href="https://github.com/Sagar21999" class="text-light text-decoration-none"
+                                target="_blank">https://github.com/Sagar21999</a>
+                        </p>
+                        <p class="card-text">
+                            <i class="bi bi-geo-alt"></i> Austin, TX
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card border-primary mt-5">
+                    <div class="card-body text-center">
+                        <ul class="nav justify-content-between list-unstyled d-flex">
+                            <li>
+                                <a class="text-body-secondary fs-3" href="mailto:sagar21naidu@gmail.com" target="_blank">
+                                    <i class="bi bi-envelope"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-body-secondary fs-3" href="https://www.linkedin.com/in/sagarnaidu21/" target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-body-secondary fs-3" href="https://github.com/Sagar21999" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-body-secondary fs-3" href="https://www.instagram.com/_sagarnaidu_/" target="_blank">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-1 my-1 px-2 border-top">
@@ -84,7 +166,8 @@
             <ul class="nav col-md-4 justify-content-end">
                 <li class="nav-item"><a href="/index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
                 <li class="nav-item"><a href="/work.html" class="nav-link px-2 text-body-secondary">Work</a></li>
-                <li class="nav-item"><a href="/projects.html" class="nav-link px-2 text-body-secondary">Projects</a></li>
+                <li class="nav-item"><a href="/projects.html" class="nav-link px-2 text-body-secondary">Projects</a>
+                </li>
                 <li class="nav-item"><a href="/about.html" class="nav-link px-2 text-body-secondary">About</a></li>
                 <li class="nav-item"><a href="/contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
             </ul>
